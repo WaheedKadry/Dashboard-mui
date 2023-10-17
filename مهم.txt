@@ -1,0 +1,5 @@
+use Material ui
+use react hook form for validation
+use fullCalender for caleneder
+use react router dom for routes
+use Nivo for Chart And Maps 

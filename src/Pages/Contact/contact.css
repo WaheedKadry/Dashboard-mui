@@ -1,0 +1,10 @@
+@media only screen and (max-width: 992px) {
+    .MuiBox-root.css-1lpsq6a {
+        max-width: 100% !important;
+    }
+    .MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.css-1duq0sn-MuiDataGrid-root {
+        width: 90% !important;
+    }
+
+}
+
