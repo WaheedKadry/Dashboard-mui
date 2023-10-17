@@ -24,6 +24,7 @@ import { Avatar, Tooltip, Typography, useTheme } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
 import { grey } from "@mui/material/colors";
 import React from "react";
+import adminImg from "../../src/Images/admin.jpg";
 
 const SideBar = ({ Drawer, DrawerHeader, open, handleDrawerClose }) => {
   let theme = useTheme();
@@ -85,7 +86,7 @@ const SideBar = ({ Drawer, DrawerHeader, open, handleDrawerClose }) => {
           my: 1,
           transition: "0.25s",
         }}
-        src="src\Images\admin.jpg"
+        src={adminImg}
       />
       <Typography
         align="center"
